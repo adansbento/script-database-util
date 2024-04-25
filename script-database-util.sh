@@ -1,6 +1,8 @@
 #!/bin/bash
 
+
 # Verifique se o arquivo script.json existe
+
 if [[ ! -f script.json ]]; then
 echo "Arquivo script.json não encontrado."
 echo "ex.: "
