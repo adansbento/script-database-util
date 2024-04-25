@@ -11,7 +11,7 @@ clipboard utility : Esta ferramenta é usada para copiar o conteúdo para a áre
 Certifique-se de que o arquivo script.json exista no mesmo diretório que este shell script.
 Execute o script com o comando bash
 
-    ./your-shell-script.sh.
+    ./shell-data-base.sh
     
 O script apresentará um menu listando as categorias disponíveis no arquivo script.json. Insira o número correspondente à categoria que você deseja selecionar e pressione Enter.
 Após selecionar uma categoria, um novo menu com as descrições correspondentes à categoria selecionada será apresentado. Insira o número correspondente à descrição que deseja selecionar e pressione Enter.
