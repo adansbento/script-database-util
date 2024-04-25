@@ -1,0 +1,32 @@
+[
+  {
+    "description": "desc1",
+    "category": "cat1",
+    "script": "script1"
+  },
+  {
+    "description": "desc2",
+    "category": "cat2",
+    "script": "script2"
+  },
+  {
+    "description": "desc3",
+    "category": "cat3",
+    "script": "script3"
+  },
+  {
+    "description": "desc1",
+    "category": "cat2",
+    "script": "script1"
+  },
+  {
+    "description": "desc2",
+    "category": "cat2",
+    "script": "script2"
+  },
+  {
+    "description": "desc3",
+    "category": "cat2",
+    "script": "script3"
+  }
+]
