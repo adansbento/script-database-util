@@ -4,7 +4,7 @@
 if [[ ! -f script.json ]]; then
 echo "Arquivo script.json não encontrado."
 echo "ex.: "
-echo '[ '
+echo ' [ '
 echo '  {'
 echo '    "description": "List to all user active", '
 echo '   "category": "user", '
@@ -15,7 +15,7 @@ echo '    "description": "List all order last 7 days", '
 echo '    "category": "order", '
 echo '    "script": "Select '*' from order where data_created=TODAY -7" '
 echo '  } '
-echo '] '
+echo ' ] '
   exit 1
 fi
 
