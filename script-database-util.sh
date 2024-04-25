@@ -40,6 +40,7 @@ copy_to_clipboard() {
   esac
 }
 echo 'Selecione a categoria:'
+
 # Ler o arquivo JSON e montar o menu
 mapfile -t categories < <(jq -r '.[] | .category' script.json | sort -u)
 
