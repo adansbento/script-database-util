@@ -4,18 +4,18 @@
 if [[ ! -f script.json ]]; then
 echo "Arquivo script.json não encontrado."
 echo "ex.: "
-echo "[ "
-echo "  {"
-echo "    "description": "Lista todos usuarios ativos", "
-echo "    "category": "cat1", "
-echo "    "script": "script1" "
-echo "   },"
-echo "  { "
-echo "    "description": "desc2", "
-echo "    "category": "cat2", "
-echo "    "script": "script2" "
-echo "  } "
-echo "] "
+echo '[ '
+echo '  {'
+echo '    "description": "List to all user active", '
+echo '   "category": "user", '
+echo '    "script": "select '*' from user where active=true ",'
+echo '   },'
+echo '  { '
+echo '    "description": "List all order last 7 days", '
+echo '    "category": "order", '
+echo '    "script": "Select '*' from order where data_created=TODAY -7" '
+echo '  } '
+echo '] '
   exit 1
 fi
 
