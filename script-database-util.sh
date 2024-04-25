@@ -1,8 +1,6 @@
 #!/bin/bash
 
-
 # Verifique se o arquivo script.json existe
-
 if [[ ! -f script.json ]]; then
 echo "Arquivo script.json não encontrado."
 echo "ex.: "
@@ -39,9 +37,9 @@ copy_to_clipboard() {
     *)       return 1 ;;
   esac
 }
-echo 'Selecione a categoria:'
 
 # Ler o arquivo JSON e montar o menu
+echo 'Selecione a categoria:'
 mapfile -t categories < <(jq -r '.[] | .category' script.json | sort -u)
 
 select category in "${categories[@]}"; do
